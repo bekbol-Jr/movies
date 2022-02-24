@@ -77,6 +77,7 @@ $(".persons").slick({
             settings: {
                 slidesToShow: 2,
                 centerMode: false,
+                arrows: false,
             }
         },
         {
@@ -84,6 +85,7 @@ $(".persons").slick({
             settings: {
                 slidesToShow: 1,
                 centerMode: false,
+                arrows: false,
             }
         }
     ]
