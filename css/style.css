@@ -6,7 +6,7 @@
     width: 1200px;
     margin: auto;
 }
-a, a:hover{
+a{
     text-decoration: none;
 }
 ul ol li {

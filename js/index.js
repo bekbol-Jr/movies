@@ -16,6 +16,7 @@ $(".movie").slick({
             settings: {
                 slidesToShow: 2,
                 centerMode: false,
+                arrows: false,
             }
         },
         {
@@ -95,7 +96,7 @@ const btn = document.querySelector(".header-burger-menu")
 
 const close = document.querySelector(".close")
 
-btn.addEventListener('cli')
+btn.addEventListener ("")
 
 
 
