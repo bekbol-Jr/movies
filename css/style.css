@@ -182,7 +182,6 @@ ul ol li {
     font-family: DM Sans ,sans-serif;
     font-size: 36px;
     color: #000000;
-
 }
 .movie__date{
     font-family: DM Sans,sans-serif;
@@ -379,7 +378,6 @@ ul ol li {
 
 /*PERSON*/
 
-
 .all-images{
     width: 250px;
     height: 370px;
@@ -397,15 +395,12 @@ ul ol li {
     transform: scale(0.97);
 }
 
-
-
 /*FOOTER*/
 
 #footer{
     padding: 120px 0;
     margin-top: 80px;
 }
-
 .footer{
     display: flex;
     flex-direction: column;
@@ -434,5 +429,69 @@ ul ol li {
     color: #6B7280;
 }
 
-
 /*FOOTER*/
+
+/*Burger menu*/
+ul, li, ol {
+    list-style: none;
+}
+.burger__menu{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: #000;
+    top: 0;
+    right: -400px;
+}
+.menu__b{
+    padding: 100px 40px 0 100px;
+}
+.menu__b li{
+    margin-bottom: 40px;
+}
+.burger__menu__link{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    transition: .3s;
+}
+.burger__menu__link:hover{
+    color: #de0e0e;
+}
+.burger__menu__link:hover::before{
+    width: 100%;
+}
+.burger__menu__link::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    background: red;
+    bottom: 0;
+    transition: .4s;
+}
+.close{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.close:active{
+    color: #de0e0e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -90,3 +90,31 @@ $(".persons").slick({
         }
     ]
 })
+
+const btn = document.querySelector(".header-burger-menu")
+
+const close = document.querySelector(".close")
+
+btn.addEventListener('cli')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
